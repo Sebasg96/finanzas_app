@@ -4,10 +4,6 @@
   "description": "manejo de las finanzas pesonales",
   "author": "ronald velez",
   "private": true,
-  "engines": {
-    "node": "6.11.1"
-  },
-  
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "node server.js",
@@ -16,6 +12,8 @@
   "dependencies": {
     "axios": "^0.21.0",
     "bootstrap-vue": "^2.20.1",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
     "vue": "^2.5.2",
     "vue-router": "^3.4.9",
     "vue-sweetalert2": "^4.1.1"
